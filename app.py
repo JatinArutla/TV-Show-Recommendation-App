@@ -24,6 +24,7 @@ st.markdown(
     <style>
     .reportview-container {{
         background-color: #0E1117;
+        color: white;
     }}
     </style>
     """,
