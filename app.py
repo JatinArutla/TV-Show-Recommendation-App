@@ -8,17 +8,27 @@ hide_streamlit_style = """
     footer {visibility: hidden;}
     </style>
     """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-darkmode = """
-<style>
-body {
-  background-color: black;
-  color: white;
-}
-</style>
-"""
-st.markdown(darkmode,unsafe_allow_html=True)
+# darkmode = """
+#     <style>
+#     body {
+#     background-color: green;
+#     }
+#     </style>
+#     """
+# st.markdown(darkmode, unsafe_allow_html=True)
+
+st.markdown(
+    f"""
+    <style>
+    .reportview-container {{
+        background-color: #0E1117;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 app = MultiApp()
 
