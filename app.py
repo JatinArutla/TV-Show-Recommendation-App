@@ -10,14 +10,14 @@ hide_streamlit_style = """
     """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-# darkmode = """
-#     <style>
-#     body {
-#     background-color: green;
-#     }
-#     </style>
-#     """
-# st.markdown(darkmode, unsafe_allow_html=True)
+darkmode = """
+    <style>
+    body {
+    color: white;
+    }
+    </style>
+    """
+st.markdown(darkmode, unsafe_allow_html=True)
 
 st.markdown(
     f"""
