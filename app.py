@@ -10,6 +10,16 @@ hide_streamlit_style = """
     """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+darkmode = """
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+</style>
+"""
+st.markdown(darkmode,unsafe_allow_html=True)
+
 app = MultiApp()
 
 app.add_app("Home", home.app)
