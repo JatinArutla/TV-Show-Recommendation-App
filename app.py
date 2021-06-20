@@ -10,35 +10,35 @@ hide_streamlit_style = """
     """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-darkmode = """
-    <style>
-    body {
-    color: white;
-    }
-    h1 {
-    color: white;
-    }
-    .css-145kmo2 {
-    color: white;
-    }
-    .st-bo {
-    color: white;
-    }
-    </style>
-    """
-st.markdown(darkmode, unsafe_allow_html=True)
+# darkmode = """
+#     <style>
+#     body {
+#     color: white;
+#     }
+#     h1 {
+#     color: white;
+#     }
+#     .css-145kmo2 {
+#     color: white;
+#     }
+#     .st-bo {
+#     color: white;
+#     }
+#     </style>
+#     """
+# st.markdown(darkmode, unsafe_allow_html=True)
 
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background-color: #0E1117;
-        color: white;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     f"""
+#     <style>
+#     .reportview-container {{
+#         background-color: #0E1117;
+#         color: white;
+#     }}
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 app = MultiApp()
 
