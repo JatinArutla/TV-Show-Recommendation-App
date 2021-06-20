@@ -11,6 +11,6 @@ def app():
 
     st.write('`Advanced Mode`: You can select the features by which you want to get recommendations.')
     
-    st.write('\n')
+#     st.write('\n')
              
-    st.write('(`Enabling Dark Mode`: To do so, go to the Taskbar located at the top right of the screen, then Settings, then enable the Dark mode theme.)')
+#     st.write('(`Enabling Dark Mode`: To do so, go to the Taskbar located at the top right of the screen, then Settings, then enable the Dark mode theme.)')
