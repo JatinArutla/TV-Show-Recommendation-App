@@ -21,6 +21,9 @@ darkmode = """
     .css-145kmo2 {
     color: white;
     }
+    .st-bo {
+    color: white;
+    }
     </style>
     """
 st.markdown(darkmode, unsafe_allow_html=True)
