@@ -15,6 +15,9 @@ darkmode = """
     body {
     color: white;
     }
+    h1 {
+    color: white;
+    }
     </style>
     """
 st.markdown(darkmode, unsafe_allow_html=True)
