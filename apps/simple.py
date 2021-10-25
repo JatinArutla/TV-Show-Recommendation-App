@@ -32,7 +32,7 @@ def app():
             df[feature] = df[feature].apply(str)
 
         def create_soup(a):
-            return a['title'] + ' ' + a['description'] + ' ' + a['rating']
+            return a['title'] + ' ' + a['description'] + ' ' + a['rating'] + ' ' + a['country']
         df['soup'] = df.apply(create_soup, axis=1)
         count = TfidfVectorizer(stop_words='english')
         count_matrix = count.fit_transform(df['soup'])
